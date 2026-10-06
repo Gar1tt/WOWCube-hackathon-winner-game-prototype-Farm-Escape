@@ -4,8 +4,7 @@
 
 The player must keep three chickens inside a farm while randomly breaking fences create escape routes. Players use the WOWCube's physical interactions to repair fences and survive for as long as possible.
 
-🏆 **1st Place — University Game Development Hackathon**
-🏆 **WOWCube Challenge Winner**
+🏆 **1st Place — University Game Development Hackathon WOWCube Challenge**
 
 ---
 
