@@ -1,0 +1,30 @@
+{
+  "name": "farmEscape",
+  "version": "1.0.3",
+  "sdkVersion": "6.3",
+  "appIcon": {
+    "path": "assets/faes.png"
+  },
+  "sourceFile": "src/farmEscape.cpp",
+  "scriptFile": "binary/farmEscape.wasm",
+  "imageAssets": [],
+  "soundAssets": [],
+  "appFlags": 1,
+  "language": "cpp",
+  "interpreter": "wasm",
+  "projectOptions": {
+    "cpp": {
+      "defines": "DUMMY_DEFINE=1;DUMMY_DEFINE2=2",
+      "flags": "-std=c++11 -Oz -flto -fno-exceptions -mexec-model=reactor -z stack-size=10240",
+      "compilerSettings": ",--initial-memory=65536,--export=run,--export=on_init,--strip-all,--lto-O3",
+      "includeFolders": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "adhocDescription": "Prototype of the game \"Farm Escape\"."
+}
